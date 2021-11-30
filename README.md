@@ -8,9 +8,9 @@
 1. docker-compose up -d
 2. docker exec -it scrapy_app_1 sh
 3. cd /src/project/project
-4. scrapy crawl yobimasuMeta -o yobimasu_meta.csv
+4. scrapy crawl yobimasuMeta -o yobimasu_meta.csv<br>
 By customizing above command, you can choose which Spiders to use and which files to output.
 
 ## Time
-1. kokochie_meta 15m
-2. parasapo_meta 4h
+kokochie_meta:15m
+parasapo_meta:4h
